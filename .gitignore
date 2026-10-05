@@ -1,0 +1,16 @@
+# --- Frost credentials (must never be committed) ---
+client_id.txt
+client_secret.txt
+*.env
+
+# --- Jupyter / Python ---
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# --- OS noise ---
+.DS_Store
+Thumbs.db
+
+# --- Plot outputs (keep repo light; re-generate from notebook) ---
+*.png
